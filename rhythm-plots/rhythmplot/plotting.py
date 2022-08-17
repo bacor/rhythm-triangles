@@ -7,7 +7,7 @@ from matplotlib.colors import BoundaryNorm
 from matplotlib.cm import ScalarMappable
 from matplotlib.ticker import FuncFormatter
 
-from .motifs import filter_motifs
+from .motifs import filter_motifs, integer_ratio_motifs
 from .helpers import defaults
 from typing import Optional, Dict, List, Iterable, Union, Tuple
 
@@ -85,16 +85,8 @@ def rhythm_plot(
 
 
 def show_integer_ratios(tax, scale, factors=[1, 2, 3], color="k"):
-    from itertools import product
-
-    points = dict()
-    for a, b, c in product(factors, factors, factors):
-        total = a + b + c
-        point = (a / total, b / total, c / total)
-        if point not in points.keys():
-            points[point] = (a, b, c)
-
-    for point, (a, b, c) in points.items():
+    ratios, labels = integer_ratio_motifs(factors, 3)
+    for point, (a, b, c) in zip(ratios, labels):
         point = np.array(point) * scale
         tax.scatter([point], marker="+", s=8, color=color, linewidth=0.25)
         tax.annotate(
@@ -114,7 +106,7 @@ def ternary_motif_plot(
     duration: np.array,
     min_dur: Optional[float] = None,
     max_dur: Optional[float] = None,
-    dur_quantile: Optional[Tuple[float]] = (0.1, 0.8),
+    dur_quantile: Optional[Tuple[float]] = (0, 1),
     limit: Optional[int] = 30000,
     jitter: Optional[float] = 0,
     scale: Optional[int] = 60,

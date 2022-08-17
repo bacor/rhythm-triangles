@@ -1,4 +1,5 @@
 import numpy as np
+from itertools import product
 from typing import Optional, Dict, List, Callable, Iterable, Union, Tuple
 
 
@@ -63,6 +64,24 @@ def ngram_motifs(data: np.array, length: int) -> np.array:
         section_motifs = sliding_window(section, length)
         motifs.extend(section_motifs)
     return np.array(motifs)
+
+
+def product_motifs(factors, length):
+    """Returns all motives that can be formed using a set of factors. If the 
+    factors for example are [1, 2] and length is 2, it returns [1, 1], [1, 2] 
+    and [2, 1], but not [2, 2] since this is the same point as [1, 1]. Can be 
+    used to construct, e.g. all small-integer ratio motifs."""
+    ratios = []
+    labels = []
+    for motif in product(*[factors]*length):
+        ratio = [m / sum(motif) for m in motif]
+        if ratio not in ratios:
+            ratios.append(ratio)
+            labels.append(motif)
+    return np.array(ratios), np.array(labels)
+
+def integer_ratio_motifs(integers, length):
+    return product_motifs(integers, length)
 
 
 def normalize(motifs):
@@ -164,3 +183,4 @@ def separate_sequences(df, column='sequence'):
         sequence = np.r_[sequence, [[np.nan] * sequence.shape[1]]]
         data.extend(sequence)
     return pd.DataFrame(data, columns=df.columns)
+
