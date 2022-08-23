@@ -211,3 +211,85 @@ def ternary_motif_plot(
         return fig, tax, cbar
     else:
         return fig, tax
+
+
+
+
+
+def format_pval(p: float, tol: Optional[float] = 1e-8) -> str:
+    """Return a concisely formatted version of the p value
+
+    Parameters
+    ----------
+    p : float
+        The p value
+    tol : Optional[float], optional
+        Values below this are considered 0, by default 1e-8
+
+    Returns
+    -------
+    str
+        a formatted p value
+    """
+    if np.isnan(p):
+        return 'NA'
+    elif np.isclose(p, 0, tol):
+        return '0'
+    elif p >= 0.1:
+        out = f'{p:.1f}'
+        if out == '1.0':
+            out  = '1'
+        return out
+    elif p >= 0.001:
+        return f'{p:.3f}'
+    else:
+        p_str = f'{p:.1e}'
+        return p_str.replace('e-0', 'e-')
+
+from matplotlib.colors import LinearSegmentedColormap
+
+def get_pval_cmap(
+        alpha: Optional[float] = 0.05,
+        vmin: Optional[float] = 1e-8, 
+        vmax: Optional[float] = 1, 
+        min_gray: Optional[float] = 0.03,
+        max_gray: Optional[float] = 0.5, 
+        min_cmap: Optional[float] = 0, 
+        max_cmap: Optional[float] = 0.45,
+        cmap: Optional[str] = 'viridis_r'
+    ) -> LinearSegmentedColormap:
+    """A colormap for p values. Values above the significance threshold are colored
+    gray, lighter towards zero, and values below it are colored using a color map.
+    It is assumed that the p values are normalized logaritmically.
+
+
+    Parameters
+    ----------
+    alpha : Optional[float], optional
+        The significance threshold, by default 0.05
+    vmin : Optional[float], optional
+        The minimum p value, by default 1e-8
+    vmax : Optional[float], optional
+        The maximum p value, by default 1
+    min_gray : Optional[float], optional
+        The minimum gray level (0=white, 1=black), by default 0.03
+    max_gray : Optional[float], optional
+        The maximum gray level (0=white, 1=black), by default 0.5
+    min_cmap : Optional[float], optional
+        The mimum value of the colormap, by default 0
+    max_cmap : Optional[float], optional
+        The maximum value, by default 0.45
+    cmap : Optional[str], optional
+        The color map to use, by default 'viridis_r'
+
+    Returns
+    -------
+    LinearSegmentedColormap
+        The colormap
+    """
+    split = (np.log10(alpha) - np.log10(vmin)) / (np.log10(vmax) - np.log10(vmin))
+    colors1 = plt.cm.gray_r(np.linspace(min_gray, max_gray, int(1000*(1-split))))
+    cmap = plt.get_cmap(cmap)
+    colors2 = cmap(np.linspace(min_cmap, max_cmap, int(1000*split)))
+    colors = np.vstack((colors1, colors2))[::-1]
+    return LinearSegmentedColormap.from_list('pval_colormap', colors)

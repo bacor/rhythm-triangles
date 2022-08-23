@@ -66,3 +66,22 @@ def defaults(kws, **default_kws):
     default_kws.update(kws)
     return default_kws
 
+
+_corners = np.array([[0, 0], [1, 0], [0.5, 0.75**0.5]])
+(x1, y1), (x2, y2), (x3, y3) = _corners
+_T = np.array([[0 - x3, x2 - x3], [y1 - y3, y2 - y3]])
+_T_inv = np.linalg.inv(_T)
+
+def  xy2bc(X):
+    diff = X - _corners[-1][np.newaxis, :]
+    lamb = np.zeros((X.shape[0], 3))
+    lamb[:, :2] =  _T_inv.dot(diff.T).T
+    lamb[:, 2] = 1 - lamb[:, 0] - lamb[:, 1]
+    return lamb
+
+def uniform_subsample_triangle(limit, margin=0):
+    X = np.random.rand(limit, 2)
+    samples = xy2bc(X)
+    all_positive = (samples >= 0).all(axis=1)
+    within_margin = samples.min(axis=1) > margin
+    return samples[all_positive & within_margin]
