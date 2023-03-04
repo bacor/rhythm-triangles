@@ -2,7 +2,7 @@ Data for Burchardt and Knörnschild 2020
 =======================================
 
 - **Notebook:** [`burchardt-knornschild2020.ipynb`](../../notebooks/burchardt-knornschild2020.ipynb)
-- **Paper:** Burchardt LS, Knörnschild M (2020) Comparison of methods for rhythm analysis of complex animals’ acoustic signals. PLoS Comput Biol 16(4): e1007755. DOI: [10.1371/journal.pcbi.1007755](https://doi.org/10.1371/journal.pcbi.1007755)
+- **Paper:** Burchardt LS, Knörnschild M (2020) Comparison of methods for rhythm analysis of complex animals’ acoustic signals. *PLoS Computational Biology 16*(4): e1007755. DOI: [10.1371/journal.pcbi.1007755](https://doi.org/10.1371/journal.pcbi.1007755)
 - **Dataset:** [DOI 10.1371/journal.pcbi.1007755.s006](https://doi.org/10.1371/journal.pcbi.1007755.s006)
 - **Copyright:** [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/), © 2020 Burchardt, Knörnschild.
 

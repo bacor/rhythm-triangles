@@ -5,23 +5,30 @@
 ### [Burchardt & Knornschild 2020](notebooks/burchardt-knornschild2020.ipynb)
 
 - **ID:** `burchardt-knornschild2020` 
-- **Reference:** Burchardt LS, Knörnschild M (2020) Comparison of methods for rhythm analysis of complex animals’ acoustic signals. PLoS Comput Biol 16(4): e1007755. DOI: [10.1371/journal.pcbi.1007755](https://doi.org/10.1371/journal.pcbi.1007755)
+- **Reference:** Burchardt LS, Knörnschild M (2020) Comparison of methods for rhythm analysis of complex animals’ acoustic signals. *PLoS Computational Biology 16*(4): e1007755. DOI: [10.1371/journal.pcbi.1007755](https://doi.org/10.1371/journal.pcbi.1007755)
 - **Dataset:** [DOI 10.1371/journal.pcbi.1007755.s006](https://doi.org/10.1371/journal.pcbi.1007755.s006)
 - **Copyright:** [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/), © 2020 Burchardt, Knörnschild.
 
 ### [Burchardt *et al*. 2021](notebooks/burchardt2021.ipynb)
 
 - **ID:** `burchardt2021`
-- **Paper:** Burchardt, L. S., Picciulin, M., Parmentier, E., & Bolgan, M. (2021). A primer on rhythm quantification for fish sounds: A Mediterranean case study. Royal Society Open Science, 8(9), 210494. DOI: [10.1098/rsos.210494](https://doi.org/10.1098/rsos.210494).
+- **Paper:** Burchardt, L. S., Picciulin, M., Parmentier, E., & Bolgan, M. (2021). A primer on rhythm quantification for fish sounds: A Mediterranean case study. *Royal Society Open Science, 8*(9), 210494. DOI: [10.1098/rsos.210494](https://doi.org/10.1098/rsos.210494).
 - **Dataset:**  Burchardt, L.; Picciulin, M.; Parmentier, E.; Bolgan, M. (2021). Rhythmic properties of three soundtypes of mediterranean vocal fish. [Dataset]. Data Publisher: Museum für Naturkunde Berlin (MfN) - Leibniz Institute for Evolution and Biodiversity Science. DOI: [10.7479/6qfa-9956](https://doi.org/10.7479/6qfa-9956).
 - **Dataset licence:** CC-BY
 
 ### [De Gregorio *et al* 2021](notebooks/degregorio2021.ipynb)
 
 - **ID**: `degregorio2021`
-- **Paper:** De Gregorio, C., Valente, D., Raimondi, T., Torti, V., Miaretsoa, L., Friard, O., Giacoma, C., Ravignani, A., & Gamba, M. (2021). Categorical rhythms in a singing primate. Current Biology, 31(20), R1379–R1380. DOI: [10.1016/j.cub.2021.09.032](https://doi.org/10.1016/j.cub.2021.09.032)
+- **Paper:** De Gregorio, C., Valente, D., Raimondi, T., Torti, V., Miaretsoa, L., Friard, O., Giacoma, C., Ravignani, A., & Gamba, M. (2021). Categorical rhythms in a singing primate. *Current Biology, 31*(20), R1379–R1380. DOI: [10.1016/j.cub.2021.09.032](https://doi.org/10.1016/j.cub.2021.09.032)
 - **Dataset:** Available from the first author upon request.
 - **Dataset license:** Unknown; the dataset has therefore not been included.
+
+### [Fernandez *et al.*, 2021](notebooks/fernandez2021.ipynb)
+
+- **ID:** `fernandez2021`
+- **Paper:** Fernandez, A. A., Burchardt, L. S., Nagy, M., & Knörnschild, M. (2021). Babbling in a vocal learning bat resembles human infant babbling. *Science*, *373*(6557), 923–926. DOI: [10.1126/science.abf9279](https://doi.org/10.1126/science.abf9279)
+- **Dataset:** Fernandez, Ahana; Burchardt, Lara; Nagy, Martina; Knörnschild, Mirjam (2021), Babbling in a vocal learning bat resembles human infant babbling, Dryad, Dataset, DOI: [10.5061/dryad.1c59zw3vg](https://doi.org/10.5061/dryad.1c59zw3vg)
+- **Dataset license:** [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ### [`roeske2020`](notebooks/roeske2020.ipynb)
 
@@ -32,11 +39,6 @@
 
 
 
-### `fernandez2021`
-
-- **Paper:** Fernandez, A. A., Burchardt, L. S., Nagy, M., & Knörnschild, M. (2021). Babbling in a vocal learning bat resembles human infant babbling. *Science*, *373*(6557), 923–926. https://doi.org/10.1126/science.abf9279
-- **Dataset:** Fernandez, Ahana; Burchardt, Lara; Nagy, Martina; Knörnschild, Mirjam (2021), Babbling in a vocal learning bat resembles human infant babbling, Dryad, Dataset, https://doi.org/10.5061/dryad.1c59zw3vg
-- **Dataset license:** CC0 1.0 Universal (CC0 1.0) Public Domain Dedication license.
 
 ### `ravignani2018`
 
