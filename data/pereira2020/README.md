@@ -8,7 +8,7 @@ Pereira *et al*. (2020)
 
 -----
 
-Data from this paper is available from the website of the publisher, but has not been included in this repository since it's not clear to me whether that would be allowed.
+Data from this paper is available from the website of the publisher, but has not been included in this repository since it's not clear to me whether that would be allowed. After you downloaded those files you can use the [notebook](../../notebooks/pereira2020.ipynb) to generate the following two files which are used to make the rhythm plots:
 
 `chimpanzee-lip-smack-data.csv` (not included)
 -------------------------
