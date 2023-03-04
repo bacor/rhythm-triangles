@@ -16,6 +16,12 @@
 - **Dataset:**  Burchardt, L.; Picciulin, M.; Parmentier, E.; Bolgan, M. (2021). Rhythmic properties of three soundtypes of mediterranean vocal fish. [Dataset]. Data Publisher: Museum für Naturkunde Berlin (MfN) - Leibniz Institute for Evolution and Biodiversity Science. DOI: [10.7479/6qfa-9956](https://doi.org/10.7479/6qfa-9956).
 - **Dataset licence:** CC-BY
 
+### [De Gregorio *et al* 2021](notebooks/degregorio2021.ipynb)
+
+- **ID**: `degregorio2021`
+- **Paper:** De Gregorio, C., Valente, D., Raimondi, T., Torti, V., Miaretsoa, L., Friard, O., Giacoma, C., Ravignani, A., & Gamba, M. (2021). Categorical rhythms in a singing primate. Current Biology, 31(20), R1379–R1380. DOI: [10.1016/j.cub.2021.09.032](https://doi.org/10.1016/j.cub.2021.09.032)
+- **Dataset:** Available from the first author upon request.
+- **Dataset license:** Unknown; the dataset has therefore not been included.
 
 ### [`roeske2020`](notebooks/roeske2020.ipynb)
 
@@ -25,11 +31,6 @@
 - **Dataset license:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 
-### `degregorio2021`
-
-- **Paper:** De Gregorio, C., Valente, D., Raimondi, T., Torti, V., Miaretsoa, L., Friard, O., Giacoma, C., Ravignani, A., & Gamba, M. (2021). Categorical rhythms in a singing primate. Current Biology, 31(20), R1379–R1380. https://doi.org/10.1016/j.cub.2021.09.032
-- **Dataset:** Available from first author upon request.
-- Intervals have therefore not been included
 
 ### `fernandez2021`
 
