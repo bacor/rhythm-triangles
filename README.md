@@ -2,11 +2,16 @@
 
 A project to visualize rhythm in music and animal sounds using rhythm triangles.
 
+----
+
+<img src="figures/roeske2020/overview/roeske2020-overview-p1.jpg?raw=true" width="800" 
+    title="Three approaches to mode classification in plainchant compared">
+
 **Abstract.** To do.
 
-**Reference.** To do.
+**Reference.** In preparation.
 
-----
+---
 
 ## Datasets
 
