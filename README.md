@@ -2,12 +2,19 @@
 
 ## Papers and datasets
 
+### [Burchardt & Knornschild 2020](notebooks/burchardt-knornschild2020.ipynb)
 
-### [`burchardt-knornschild2020`](notebooks/burchardt-knornschild2020.ipynb)
-
-- **Paper:** Burchardt LS, Knörnschild M (2020) Comparison of methods for rhythm analysis of complex animals’ acoustic signals. PLoS Comput Biol 16(4): e1007755. DOI: [10.1371/journal.pcbi.1007755](https://doi.org/10.1371/journal.pcbi.1007755)
+- **ID:** `burchardt-knornschild2020` 
+- **Reference:** Burchardt LS, Knörnschild M (2020) Comparison of methods for rhythm analysis of complex animals’ acoustic signals. PLoS Comput Biol 16(4): e1007755. DOI: [10.1371/journal.pcbi.1007755](https://doi.org/10.1371/journal.pcbi.1007755)
 - **Dataset:** [DOI 10.1371/journal.pcbi.1007755.s006](https://doi.org/10.1371/journal.pcbi.1007755.s006)
 - **Copyright:** [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/), © 2020 Burchardt, Knörnschild.
+
+### [Burchardt *et al*. 2021](notebooks/burchardt2021.ipynb)
+
+- **ID:** `burchardt2021`
+- **Paper:** Burchardt, L. S., Picciulin, M., Parmentier, E., & Bolgan, M. (2021). A primer on rhythm quantification for fish sounds: A Mediterranean case study. Royal Society Open Science, 8(9), 210494. DOI: [10.1098/rsos.210494](https://doi.org/10.1098/rsos.210494).
+- **Dataset:**  Burchardt, L.; Picciulin, M.; Parmentier, E.; Bolgan, M. (2021). Rhythmic properties of three soundtypes of mediterranean vocal fish. [Dataset]. Data Publisher: Museum für Naturkunde Berlin (MfN) - Leibniz Institute for Evolution and Biodiversity Science. DOI: [10.7479/6qfa-9956](https://doi.org/10.7479/6qfa-9956).
+- **Dataset licence:** CC-BY
 
 
 ### [`roeske2020`](notebooks/roeske2020.ipynb)
@@ -42,11 +49,6 @@
 - **Dataset:** Filer, Alannah and Burchardt, Lara S.(2021). Assessing acoustic competition between sibling frog species using rhythm analysis. The University of Queensland. Data Collection.https://doi.org/10.14264/6c4553a
 - **Dataset License:** "Permitted Re-use with Acknowledgement. I AGREE TO ACKNOWLEDGE any re-use of this dataset in any research outputs where reliance is made upon it, including conference papers and published research papers."
 
-### `burchardt2021`
-
-- **Paper:** Burchardt, L. S., Picciulin, M., Parmentier, E., & Bolgan, M. (2021). A primer on rhythm quantification for fish sounds: A Mediterranean case study. Royal Society Open Science, 8(9), 210494. https://doi.org/10.1098/rsos.210494
-- **Dataset:**  Burchardt, L.; Picciulin, M.; Parmentier, E.; Bolgan, M. (2021). Rhythmic properties of three soundtypes of mediterranean vocal fish. [Dataset]. Data Publisher: Museum für Naturkunde Berlin (MfN) - Leibniz Institute for Evolution and Biodiversity Science. https://doi.org/10.7479/6qfa-9956.
-- **Dataset licence:** CC-BY
 
 ### `pereira2020`
 
