@@ -57,22 +57,10 @@
 - **Dataset:** Ravignani, Andrea (2018): Maternal attraction calls of seal pup: rhythm and timing of spontaneous vocalisations. DOI: [10.6084/m9.figshare.5616490.v1](https://doi.org/10.6084/m9.figshare.5616490.v1).
 - **Dataset license:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-### [`roeske2020`](notebooks/roeske2020.ipynb)
+### [Roeske *et al.* 2020](notebooks/roeske2020.ipynb)
 
-- **Paper:** Roeske, T. C., Tchernichovski, O., Poeppel, D., & Jacoby, N. (2020). Categorical Rhythms Are Shared between Songbirds and Humans. Current Biology, S0960982220309246. [DOI: 10/ghhxnf](https://doi.org/10/ghhxnf)
+- **ID:** `roeske2020`
+- **Paper:** Roeske, T. C., Tchernichovski, O., Poeppel, D., & Jacoby, N. (2020). Categorical Rhythms Are Shared between Songbirds and Humans. *Current Biology*, S0960982220309246. [DOI: 10/ghhxnf](https://doi.org/10/ghhxnf)
 - **Music dataset:** Roeske, Tina; Jacoby, Nori (2020), “Musical rhythm: Onsets/intervals of seven music corpora”, Mendeley Data, V2, DOI: [10.17632/s4cjj7h5sv.2](https://dx.doi.org/10.17632/s4cjj7h5sv.2)
 - **Birdsong dataset:** Roeske, Tina; Tchernichovski, Ofer (2020), “Birdsong rhythm: Onsets/intervals of a zebra finch song corpus and 3 thrush nightingale song corpora”, Mendeley Data, V1, DOI: [10.17632/zhb728dc4z.1](https://dx.doi.org/10.17632/zhb728dc4z.1)
 - **Dataset license:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-
-
-
-
-
-
-
-### `pereira2020`
-
-- **Paper:** Pereira, A. S., Kavanagh, E., Hobaiter, C., Slocombe, K. E., & Lameira, A. R. (2020). Chimpanzee lip-smacks confirm primate continuity for speech-rhythm evolution. Biology Letters, 16(5), 20200232. https://doi.org/10.1098/rsbl.2020.0232
-- **Dataset**: https://royalsocietypublishing.org/doi/suppl/10.1098/rsbl.2020.0232
-- **Dataset licence:** unknown
-
