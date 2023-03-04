@@ -81,7 +81,7 @@ Below one finds a list of all datasets that have been analyzed. Whenever this wa
 - [`data`](data/) contains all data used, organized per dataset (see above). For every dataset a `[dataset]-intervals.txt` file is produced that contains one interval per line, measured in seconds. This file can easily be read into Python using NumPy's `np.loadtxt` function. Where possible, the original data has been included in a `original-data` directory.
 - [`notebooks`](notebooks/) contains all Jupyter notebooks used to preprocess datasets and generate the visualizations.
 - [`figures`](figures/) contains the figures.
-- [`rhythmplot`](rhythmplot/) contains the Python code needed to generate rhythm triangle plots. It also includes some code for workign with rhythmic motifs.
+- [`rhythmplot`](rhythmplot/) contains the Python code needed to generate rhythm triangle plots. It also includes some code for working with rhythmic motifs.
 
 ## Setup
 
