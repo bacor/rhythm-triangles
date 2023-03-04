@@ -50,6 +50,12 @@
 - **Dataset**: available from the publisher via [https://royalsocietypublishing.org/doi/suppl/10.1098/rsbl.2020.0232](royalsocietypublishing.org/doi/suppl/10.1098/rsbl.2020.0232).
 - **Dataset licence:** © 2020 The Author(s). Published by the Royal Society. All rights reserved.
 
+### [Ravignani 2018](notebooks/ravignani2018.ipynb)
+
+- **ID:** `ravignani2018`
+- **Paper:** Ravignani, A. Spontaneous rhythms in a harbor seal pup calls. *BMC Research Notes 11*(3). DOI: [10.1186/s13104-017-3107-6](https://doi.org/10.1186/s13104-017-3107-6).
+- **Dataset:** Ravignani, Andrea (2018): Maternal attraction calls of seal pup: rhythm and timing of spontaneous vocalisations. DOI: [10.6084/m9.figshare.5616490.v1](https://doi.org/10.6084/m9.figshare.5616490.v1).
+- **Dataset license:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ### [`roeske2020`](notebooks/roeske2020.ipynb)
 
@@ -60,12 +66,6 @@
 
 
 
-
-### `ravignani2018`
-
-- **Paper:** Ravignani, A. Spontaneous rhythms in a harbor seal pup calls. BMC Res Notes 11, 3 (2018). https://doi.org/10.1186/s13104-017-3107-6
-- **Dataset:** Ravignani, Andrea (2018): Maternal attraction calls of seal pup: rhythm and timing of spontaneous vocalisations. figshare. Dataset. https://doi.org/10.6084/m9.figshare.5616490.v1 
-- **Dataset license:** Attribution 4.0 International (CC BY 4.0) 
 
 
 
