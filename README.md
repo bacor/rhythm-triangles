@@ -23,7 +23,7 @@
 - **Dataset:** Available from the first author upon request.
 - **Dataset license:** Unknown; the dataset has therefore not been included.
 
-### [Fernandez *et al.*, 2021](notebooks/fernandez2021.ipynb)
+### [Fernandez *et al.* 2021](notebooks/fernandez2021.ipynb)
 
 - **ID:** `fernandez2021`
 - **Paper:** Fernandez, A. A., Burchardt, L. S., Nagy, M., & Knörnschild, M. (2021). Babbling in a vocal learning bat resembles human infant babbling. *Science*, *373*(6557), 923–926. DOI: [10.1126/science.abf9279](https://doi.org/10.1126/science.abf9279)
