@@ -2,7 +2,12 @@ data
 notes
 Untitled1.ipynb
 
-intervals/degregorio2021
-intervals/pereira2020
+
+env/
+tmp/
 
 .DS_Store
+.ipynb_checkpoints
+__pycache__
+
+config.py
