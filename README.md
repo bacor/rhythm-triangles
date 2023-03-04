@@ -37,6 +37,12 @@
 - **Dataset:** Filer, Alannah and Burchardt, Lara S.(2021). Assessing acoustic competition between sibling frog species using rhythm analysis. The University of Queensland. Data Collection. DOI: [10.14264/6c4553a](https://doi.org/10.14264/6c4553a)
 - **Dataset License:** [Permitted re-use with acknowledgement](https://guides.library.uq.edu.au/deposit-your-data/license-reuse-with-acknowledgement): "acknowledge any re-use of this dataset in any research outputs where reliance is made upon it, including conference papers and published research papers."
 
+### IEMP CSS: Poole, Tarsitani & Clayton 2020
+
+- **ID:** `iemp_css`
+- **Reference:**  Poole, A., Tarsitani, S., & Clayton, M. (2020, July 10). IEMP Cuban Son and Salsa. DOI: [10.17605/OSF.IO/SFXA2](https://doi.org/10.17605/OSF.IO/SFXA2)
+- **Dataset license:** [CC BY-NC-ND 4.0](https://osf.io/zj69b)
+
 ### [`roeske2020`](notebooks/roeske2020.ipynb)
 
 - **Paper:** Roeske, T. C., Tchernichovski, O., Poeppel, D., & Jacoby, N. (2020). Categorical Rhythms Are Shared between Songbirds and Humans. Current Biology, S0960982220309246. [DOI: 10/ghhxnf](https://doi.org/10/ghhxnf)
@@ -62,7 +68,3 @@
 - **Dataset**: https://royalsocietypublishing.org/doi/suppl/10.1098/rsbl.2020.0232
 - **Dataset licence:** unknown
 
-### `iemp_css`
-
-- **Reference:**  Poole, A., Tarsitani, S., & Clayton, M. (2020, July 10). IEMP Cuban Son and Salsa. https://doi.org/10.17605/OSF.IO/SFXA2 
-- **Dataset license:** Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License

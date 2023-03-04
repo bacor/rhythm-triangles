@@ -1,0 +1,19 @@
+Tier,Start Time,End Time,Duration,Annotation
+Son/montuno,1.2,28,26.8,Intro
+Son/montuno,28,150.1,122.1,Son
+Son/montuno,150.1,351.3,201.2,Montuno
+Verse/Chorus,28,55,27,Verse 1
+Verse/Chorus,55,94,39,Chorus
+Verse/Chorus,94,121.7,27.7,Verse 2
+Verse/Chorus,121.7,150.1,28.4,Chorus
+Sections,210.2,287.849,77.649,Tres Solo
+Head Interaction,10,28.109,18.109,Synched Head movement. Bass (Michel Salazar); Guiro (Michel); Clave (Vicente); Shakers/Vox (David)
+Head Interaction,28.129,40.888,12.759,Synched Head movement: Bass (Michel Salazar); Clave (Vicente)
+Head Interaction,73.4,107.089,33.689,Synched Head movement. Bass (Michel Salazar); Clave (Vicente)
+Head Interaction,142.7,148.1,5.4,Synched Head movement. Bass (Michel Salazar); Clave (Vicente)
+Head Interaction,210.2,287.852,77.652,Synched Head movement: Bass (Michel Salazar); Guiro (Michel); Clave (Vicente); Shakers (David)
+Feet Interaction,10,28.109,18.109,Synched Feet movement. Bass (Michel Salazar); Guiro (Michel); Clave (Vicente); Shakers/Vox (David)
+Feet Interaction,28.116,40.911,12.795,Synched Feet movement: Bass (Michel Salazar); Clave (Vicente)
+Feet Interaction,73.4,107.088,33.688,Synched Feet movement: Bass (Michel Salazar); Clave (Vicente)
+Feet Interaction,142.7,148.1,5.4,Synched Feet movement. Bass (Michel Salazar); Clave (Vicente)
+Feet Interaction,210.2,287.863,77.663,Synched Feet movement: Bass (Michel Salazar); Guiro (Michel); Clave (Vicente); Shakers (David)
