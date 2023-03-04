@@ -6,3 +6,4 @@ python-ternary==1.0.8
 scikit-learn==1.0.2
 scipy==1.5.2
 seaborn==0.11.0
+diptest==0.5.2
