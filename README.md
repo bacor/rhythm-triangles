@@ -1,6 +1,17 @@
 # Rhythm triangles
 
-## Papers and datasets
+A project to visualize rhythm in music and animal sounds using rhythm triangles.
+
+**Abstract.** To do.
+
+**Reference.** To do.
+
+----
+
+## Datasets
+
+Below one finds a list of all datasets that have been analyzed. Whenever this was allowed, both the original and processed datafiles have been included in this repository in the [`data`](data/) directory.
+
 
 ### [Burchardt & Knornschild 2020](notebooks/burchardt-knornschild2020.ipynb)
 
@@ -64,3 +75,28 @@
 - **Music dataset:** Roeske, Tina; Jacoby, Nori (2020), “Musical rhythm: Onsets/intervals of seven music corpora”, Mendeley Data, V2, DOI: [10.17632/s4cjj7h5sv.2](https://dx.doi.org/10.17632/s4cjj7h5sv.2)
 - **Birdsong dataset:** Roeske, Tina; Tchernichovski, Ofer (2020), “Birdsong rhythm: Onsets/intervals of a zebra finch song corpus and 3 thrush nightingale song corpora”, Mendeley Data, V1, DOI: [10.17632/zhb728dc4z.1](https://dx.doi.org/10.17632/zhb728dc4z.1)
 - **Dataset license:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+## Repository structure
+
+- [`data`](data/) contains all data used, organized per dataset (see above). For every dataset a `[dataset]-intervals.txt` file is produced that contains one interval per line, measured in seconds. This file can easily be read into Python using NumPy's `np.loadtxt` function. Where possible, the original data has been included in a `original-data` directory.
+- [`notebooks`](notebooks/) contains all Jupyter notebooks used to preprocess datasets and generate the visualizations.
+- [`figures`](figures/) contains the figures.
+- [`rhythmplot`](rhythmplot/) contains the Python code needed to generate rhythm triangle plots. It also includes some code for workign with rhythmic motifs.
+
+## Setup
+
+You can find the Python version used in .python-version and all dependencies are listed in requirements.txt. If you use pyenv and venv to manage python versions and virtual environments, do the following:
+
+```bash
+# Install the right python version
+pyenv install | cat .python-version
+
+# Create a virtual environment
+python -m venv env
+
+# Activate the environment
+source env/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
