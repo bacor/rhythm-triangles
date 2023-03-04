@@ -5,7 +5,7 @@
 ### [Burchardt & Knornschild 2020](notebooks/burchardt-knornschild2020.ipynb)
 
 - **ID:** `burchardt-knornschild2020` 
-- **Reference:** Burchardt LS, Knörnschild M (2020) Comparison of methods for rhythm analysis of complex animals’ acoustic signals. *PLoS Computational Biology 16*(4): e1007755. DOI: [10.1371/journal.pcbi.1007755](https://doi.org/10.1371/journal.pcbi.1007755)
+- **Paper:** Burchardt LS, Knörnschild M (2020) Comparison of methods for rhythm analysis of complex animals’ acoustic signals. *PLoS Computational Biology 16*(4): e1007755. DOI: [10.1371/journal.pcbi.1007755](https://doi.org/10.1371/journal.pcbi.1007755)
 - **Dataset:** [DOI 10.1371/journal.pcbi.1007755.s006](https://doi.org/10.1371/journal.pcbi.1007755.s006)
 - **Copyright:** [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/), © 2020 Burchardt, Knörnschild.
 
@@ -37,11 +37,19 @@
 - **Dataset:** Filer, Alannah and Burchardt, Lara S.(2021). Assessing acoustic competition between sibling frog species using rhythm analysis. The University of Queensland. Data Collection. DOI: [10.14264/6c4553a](https://doi.org/10.14264/6c4553a)
 - **Dataset License:** [Permitted re-use with acknowledgement](https://guides.library.uq.edu.au/deposit-your-data/license-reuse-with-acknowledgement): "acknowledge any re-use of this dataset in any research outputs where reliance is made upon it, including conference papers and published research papers."
 
-### IEMP CSS: Poole, Tarsitani & Clayton 2020
+### [IEMP CSS: Poole, Tarsitani & Clayton 2020](notebooks/iemp_css.ipynb)
 
 - **ID:** `iemp_css`
 - **Reference:**  Poole, A., Tarsitani, S., & Clayton, M. (2020, July 10). IEMP Cuban Son and Salsa. DOI: [10.17605/OSF.IO/SFXA2](https://doi.org/10.17605/OSF.IO/SFXA2)
 - **Dataset license:** [CC BY-NC-ND 4.0](https://osf.io/zj69b)
+
+### [Pereira *et al.* 2020](notebooks/pereira2020.ipynb)
+
+- **ID:** `pereira2020`
+- **Paper:** Pereira, A. S., Kavanagh, E., Hobaiter, C., Slocombe, K. E., & Lameira, A. R. (2020). Chimpanzee lip-smacks confirm primate continuity for speech-rhythm evolution. *Biology Letters, 16*(5), 20200232. DOI: [10.1098/rsbl.2020.0232](https://doi.org/10.1098/rsbl.2020.0232).
+- **Dataset**: available from the publisher via [https://royalsocietypublishing.org/doi/suppl/10.1098/rsbl.2020.0232](royalsocietypublishing.org/doi/suppl/10.1098/rsbl.2020.0232).
+- **Dataset licence:** © 2020 The Author(s). Published by the Royal Society. All rights reserved.
+
 
 ### [`roeske2020`](notebooks/roeske2020.ipynb)
 

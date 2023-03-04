@@ -1,7 +1,14 @@
-Perreira et al. (2020)
+Pereira *et al*. (2020)
 =======================
 
-Data from this paper is available from the first author upon request, but has not been included in this repository. 
+- **Notebook:** [`pereira2020.ipynb`](../../notebooks/pereira2020.ipynb)
+- **Paper:** Pereira, A. S., Kavanagh, E., Hobaiter, C., Slocombe, K. E., & Lameira, A. R. (2020). Chimpanzee lip-smacks confirm primate continuity for speech-rhythm evolution. *Biology Letters, 16*(5), 20200232. DOI: [10.1098/rsbl.2020.0232](https://doi.org/10.1098/rsbl.2020.0232).
+- **Dataset**: available from the publisher via [https://royalsocietypublishing.org/doi/suppl/10.1098/rsbl.2020.0232](royalsocietypublishing.org/doi/suppl/10.1098/rsbl.2020.0232).
+- **Dataset licence:** © 2020 The Author(s). Published by the Royal Society. All rights reserved.
+
+-----
+
+Data from this paper is available from the website of the publisher, but has not been included in this repository since it's not clear to me whether that would be allowed.
 
 `chimpanzee-lip-smack-data.csv` (not included)
 -------------------------
