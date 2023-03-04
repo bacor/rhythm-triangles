@@ -30,6 +30,13 @@
 - **Dataset:** Fernandez, Ahana; Burchardt, Lara; Nagy, Martina; Knörnschild, Mirjam (2021), Babbling in a vocal learning bat resembles human infant babbling, Dryad, Dataset, DOI: [10.5061/dryad.1c59zw3vg](https://doi.org/10.5061/dryad.1c59zw3vg)
 - **Dataset license:** [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 
+### [Filer, Burchardt & van Rensburg 2021](notebooks/filer2021.ipynb)
+
+- **ID:** `filer2021`
+- **Paper:** Filer, A., Burchardt, L. S., & van Rensburg, B. J. (2021). Assessing acoustic competition between sibling frog species using rhythm analysis. *Ecology and Evolution 11*, 8814– 8830. DOI: [10.1002/ece3.7713](https://doi.org/10.1002/ece3.7713).
+- **Dataset:** Filer, Alannah and Burchardt, Lara S.(2021). Assessing acoustic competition between sibling frog species using rhythm analysis. The University of Queensland. Data Collection. DOI: [10.14264/6c4553a](https://doi.org/10.14264/6c4553a)
+- **Dataset License:** [Permitted re-use with acknowledgement](https://guides.library.uq.edu.au/deposit-your-data/license-reuse-with-acknowledgement): "acknowledge any re-use of this dataset in any research outputs where reliance is made upon it, including conference papers and published research papers."
+
 ### [`roeske2020`](notebooks/roeske2020.ipynb)
 
 - **Paper:** Roeske, T. C., Tchernichovski, O., Poeppel, D., & Jacoby, N. (2020). Categorical Rhythms Are Shared between Songbirds and Humans. Current Biology, S0960982220309246. [DOI: 10/ghhxnf](https://doi.org/10/ghhxnf)
@@ -46,11 +53,7 @@
 - **Dataset:** Ravignani, Andrea (2018): Maternal attraction calls of seal pup: rhythm and timing of spontaneous vocalisations. figshare. Dataset. https://doi.org/10.6084/m9.figshare.5616490.v1 
 - **Dataset license:** Attribution 4.0 International (CC BY 4.0) 
 
-### `filer2021`
 
-- **Paper:** Filer, A, Burchardt, LS, van Rensburg, BJ. Assessing acoustic competition between sibling frog species using rhythm analysis. Ecol Evol. 2021, 11: 8814– 8830. https://doi.org/10.1002/ece3.7713 
-- **Dataset:** Filer, Alannah and Burchardt, Lara S.(2021). Assessing acoustic competition between sibling frog species using rhythm analysis. The University of Queensland. Data Collection.https://doi.org/10.14264/6c4553a
-- **Dataset License:** "Permitted Re-use with Acknowledgement. I AGREE TO ACKNOWLEDGE any re-use of this dataset in any research outputs where reliance is made upon it, including conference papers and published research papers."
 
 
 ### `pereira2020`
