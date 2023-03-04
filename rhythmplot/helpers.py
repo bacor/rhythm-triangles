@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 CUR_DIR = os.path.dirname(__file__)
 ROOT_DIR = os.path.abspath(os.path.join(CUR_DIR, os.path.pardir))
-
+DATA_DIR = os.path.join(ROOT_DIR, 'data')
 
 def report_intervals(intervals, title):
     pre = ">  "
@@ -22,14 +22,14 @@ def report_intervals(intervals, title):
 def save_intervals(intervals, group, name, report=False):
     if report:
         report_intervals(intervals, f"Saving {group}/{name}")
-    path = os.path.join(ROOT_DIR, "intervals", group, f"{name}-intervals.txt")
+    path = os.path.join(DATA_DIR, group, f"{name}-intervals.txt")
     if not os.path.exists(os.path.dirname(path)):
         os.makedirs(os.path.dirname(path))
     np.savetxt(path, intervals)
 
 
 def load_intervals(group, name):
-    path = os.path.join(ROOT_DIR, "intervals", group, f"{name}-intervals.txt")
+    path = os.path.join(DATA_DIR, group, f"{name}-intervals.txt")
     return np.loadtxt(path)
 
 
