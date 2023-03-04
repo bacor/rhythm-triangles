@@ -62,7 +62,7 @@ def rhythm_plot(
         tax.ticks(
             axis="lbr", multiple=multiple, offset=0.02, lw=0.5, ticks=ticks, fontsize=6
         )
-        label_offset += 0.1
+        # bottom_label_offset += 0.1
     if not labels:
         tax.bottom_axis_label('')
         tax.right_axis_label('')
