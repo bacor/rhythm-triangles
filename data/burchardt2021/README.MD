@@ -1,5 +1,5 @@
 Data for Burchardt *et al*. 2021
-======================
+================================
 
 - **Notebook:** [`burchardt2021.ipynb`](../../notebooks/burchardt2021.ipynb)
 - **Paper:** Burchardt, L. S., Picciulin, M., Parmentier, E., & Bolgan, M. (2021). A primer on rhythm quantification for fish sounds: A Mediterranean case study. *Royal Society Open Science, 8*(9), 210494. DOI: [10.1098/rsos.210494](https://doi.org/10.1098/rsos.210494).
